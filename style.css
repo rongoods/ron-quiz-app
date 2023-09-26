@@ -1,5 +1,52 @@
 * {
-  display: flex;
+  display: flexbox;
   margin: 0;
   padding: 0;
+  justify-content: center;
+}
+
+h1 {
+  align-self: center;
+  color: brown;
+  background-color: sandybrown;
+  padding: 10px;
+}
+
+.base-layer {
+  background-color: bisque;
+}
+
+.base-layer__question-card {
+  padding: 20px;
+  margin: 10px;
+  min-width: 100px;
+  min-height: 400px;
+  justify-content: center;
+  background-color: burlywood;
+  color: brown;
+  border: dashed 2px sandybrown;
+  border-radius: 30px;
+}
+
+p .question {
+  justify-content: center;
+}
+
+.bookmark {
+  border: solid 1px sandybrown;
+  border-radius: 10px;
+  background-color: bisque;
+  color: brown;
+  text-transform: none;
+  padding: 3px;
+  margin: 2px;
+}
+
+.show-answer-button {
+  border: solid 2px sandybrown;
+  border-radius: 10px;
+  background-color: bisque;
+  color: brown;
+  margin: 2px;
+  padding: 2px;
 }
