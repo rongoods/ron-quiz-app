@@ -1,17 +1,14 @@
 * {
-  display: flexbox;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
   justify-content: center;
-}
-
-@font-face {
-  font-family: Glook;
-  src: url("/Users/ron/Desktop/fonts/Gloock-Regular.ttf");
+  font-family: "Gloock", serif;
+  font-family: "PT Sans", sans-serif;
 }
 
 h1 {
-  align-self: center;
+  text-align: center;
   color: darkolivegreen;
   background-color: darkgoldenrod;
   padding: 10px;
@@ -22,29 +19,39 @@ h1 {
 }
 
 .base-layer__question-card {
+  position: relative;
+  justify-content: center;
   padding: 20px;
   margin: 10px;
   min-width: 100px;
   min-height: 400px;
-  justify-content: center;
   background-color: burlywood;
   color: darkolivegreen;
   border: dashed 2px darkgoldenrod;
   border-radius: 30px;
 }
 
-p .question {
-  justify-content: center;
+.question {
+  text-align: center;
+  font-size: 20px;
+}
+
+.bookmark-button {
+  position: absolute;
+  top: -8px;
+  right: 20px;
+  background: none;
 }
 
 .bookmark {
   border: solid 2px darkgoldenrod;
   border-radius: 10px;
-  background-color: bisque;
-  color: darkolivegreen;
+  background-color: darkolivegreen;
+  color: bisque;
   text-transform: none;
-  padding: 3px;
-  margin: 2px;
+  padding: 2px;
+  margin: 5px;
+  font-size: 16px;
 }
 
 .show-answer-button {
@@ -52,23 +59,25 @@ p .question {
   border-radius: 10px;
   background-color: bisque;
   color: darkolivegreen;
-  margin: 2px;
-  padding: 2px;
+  margin: 10px;
+  padding: 10px;
+  font-size: 18px;
 }
 
 .nav-bar {
+  display: flex;
   background-color: darkgoldenrod;
   color: darkolivegreen;
   padding: 10px;
   position: fixed;
   bottom: 0;
   min-width: 100%;
-  justify-content: center;
+  max-height: 40px;
 }
 
 .nav-bar__button {
-  margin: 20%;
-  min-width: 30px;
+  background-color: darkgoldenrod;
+  justify-content: space-between;
 }
 
 .nav-bar__button:hover {

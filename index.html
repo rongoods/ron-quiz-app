@@ -4,13 +4,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gloock&family=PT+Sans&display=swap"
+      rel="stylesheet"
+    />
     <title>Ron's Quiz App</title>
   </head>
   <body class="base-layer">
     <header>
       <h1>Quiz App</h1>
     </header>
+
     <article class="base-layer__question-card">
+      <button class="bookmark-button">
+        <img
+          src="./resources/bookmark_transparent.png"
+          alt="bookmark-button"
+          height="25px"
+          width="25px"
+        />
+      </button>
       <p class="question">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis,
         similique perferendis iure, molestias aliquid corporis dolorem assumenda
@@ -18,27 +33,63 @@
         accusamus quam?
       </p>
       <button class="show-answer-button">Show Answer</button>
+      <br />
       <a class="bookmark" href="#Bookmark">Text</a>
       <a class="bookmark" href="#Bookmark">Text</a>
       <a class="bookmark" href="#Bookmark">Text</a>
     </article>
+
     <article class="base-layer__question-card">
+      <button class="bookmark-button">
+        <img
+          src="./resources/bookmark_filled.png"
+          alt="bookmark-button"
+          height="25px"
+          width="25px"
+        />
+      </button>
       <p class="question">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis,
         similique perferendis iure, molestias aliquid corporis dolorem assumenda
         sint totam cum est amet repellendus eum eaque nisi, accusantium quod
         accusamus quam?
       </p>
+
       <button class="show-answer-button">Show Answer</button>
+      <br />
       <a class="bookmark" href="#Bookmark">Text</a>
       <a class="bookmark" href="#Bookmark">Text</a>
       <a class="bookmark" href="#Bookmark">Text</a>
     </article>
+
     <footer>
       <nav class="nav-bar">
-        <a class="nav-bar__button">Home Button</a>
-        <a class="nav-bar__button">Bookmarks</a>
-        <a class="nav-bar__button">Profile</a>
+        <button class="nav-bar__button">
+          <img
+            src="./resources/home.png"
+            alt="home button"
+            height="25px"
+            width="25px"
+          />
+        </button>
+
+        <button class="nav-bar__button">
+          <img
+            src="./resources/bookmark_transparent.png"
+            alt="bookmark button"
+            height="25px"
+            width="25px"
+          />
+        </button>
+
+        <button class="nav-bar__button">
+          <img
+            src="./resources/profile.png"
+            alt="profile button"
+            height="25px"
+            width="25px"
+          />
+        </button>
       </nav>
     </footer>
   </body>
