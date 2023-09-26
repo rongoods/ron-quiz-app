@@ -7,8 +7,8 @@
 
 h1 {
   align-self: center;
-  color: brown;
-  background-color: sandybrown;
+  color: darkolivegreen;
+  background-color: darkgoldenrod;
   padding: 10px;
 }
 
@@ -23,8 +23,8 @@ h1 {
   min-height: 400px;
   justify-content: center;
   background-color: burlywood;
-  color: brown;
-  border: dashed 2px sandybrown;
+  color: darkolivegreen;
+  border: dashed 2px darkgoldenrod;
   border-radius: 30px;
 }
 
@@ -33,20 +33,38 @@ p .question {
 }
 
 .bookmark {
-  border: solid 1px sandybrown;
+  border: solid 1px darkgoldenrod;
   border-radius: 10px;
   background-color: bisque;
-  color: brown;
+  color: darkolivegreen;
   text-transform: none;
   padding: 3px;
   margin: 2px;
 }
 
 .show-answer-button {
-  border: solid 2px sandybrown;
+  border: solid 2px darkgoldenrod;
   border-radius: 10px;
   background-color: bisque;
-  color: brown;
+  color: darkolivegreen;
   margin: 2px;
   padding: 2px;
+}
+
+.nav-bar {
+  background-color: darkgoldenrod;
+  color: darkolivegreen;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  min-width: 100%;
+  justify-content: center;
+}
+
+.nav-bar__button {
+  margin: 20%;
+}
+
+.nav-bar__button:hover {
+  background-color: darkolivegreen;
 }
