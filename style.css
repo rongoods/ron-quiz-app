@@ -5,6 +5,11 @@
   justify-content: center;
 }
 
+@font-face {
+  font-family: Glook;
+  src: url("/Users/ron/Desktop/fonts/Gloock-Regular.ttf");
+}
+
 h1 {
   align-self: center;
   color: darkolivegreen;
@@ -33,7 +38,7 @@ p .question {
 }
 
 .bookmark {
-  border: solid 1px darkgoldenrod;
+  border: solid 2px darkgoldenrod;
   border-radius: 10px;
   background-color: bisque;
   color: darkolivegreen;
@@ -63,8 +68,10 @@ p .question {
 
 .nav-bar__button {
   margin: 20%;
+  min-width: 30px;
 }
 
 .nav-bar__button:hover {
   background-color: darkolivegreen;
+  color: darkgoldenrod;
 }
