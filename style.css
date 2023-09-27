@@ -22,18 +22,21 @@ h1 {
   position: relative;
   justify-content: center;
   padding: 20px;
-  margin: 10px;
+  margin: 30px;
   min-width: 100px;
   min-height: 400px;
   background-color: burlywood;
   color: darkolivegreen;
   border: dashed 2px darkgoldenrod;
   border-radius: 30px;
+  display: flexbox;
 }
 
 .question {
   text-align: center;
   font-size: 20px;
+  padding-top: 45px;
+  padding-bottom: 20px;
 }
 
 .bookmark-button {
@@ -49,8 +52,7 @@ h1 {
   background-color: darkolivegreen;
   color: bisque;
   text-transform: none;
-  padding: 2px;
-  margin: 5px;
+  padding: 5px;
   font-size: 16px;
 }
 
@@ -59,9 +61,10 @@ h1 {
   border-radius: 10px;
   background-color: bisque;
   color: darkolivegreen;
-  margin: 10px;
+  margin: 75px;
   padding: 10px;
   font-size: 18px;
+  align-items: center;
 }
 
 .nav-bar {
@@ -72,14 +75,10 @@ h1 {
   position: fixed;
   bottom: 0;
   min-width: 100%;
-  max-height: 40px;
+  max-height: 50px;
+  justify-content: space-between;
 }
 
 .nav-bar__button {
   background-color: darkgoldenrod;
-  justify-content: space-between;
-}
-
-.nav-bar__button:hover {
-  background-color: darkolivegreen;
 }
