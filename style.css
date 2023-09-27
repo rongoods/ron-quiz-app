@@ -1,5 +1,84 @@
 * {
-  display: flex;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
+  justify-content: center;
+  font-family: "Gloock", serif;
+  font-family: "PT Sans", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: darkolivegreen;
+  background-color: darkgoldenrod;
+  padding: 10px;
+}
+
+.base-layer {
+  background-color: bisque;
+}
+
+.base-layer__question-card {
+  position: relative;
+  justify-content: center;
+  padding: 20px;
+  margin: 30px;
+  min-width: 100px;
+  min-height: 400px;
+  background-color: burlywood;
+  color: darkolivegreen;
+  border: dashed 2px darkgoldenrod;
+  border-radius: 30px;
+  display: flexbox;
+}
+
+.question {
+  text-align: center;
+  font-size: 20px;
+  padding-top: 45px;
+  padding-bottom: 20px;
+}
+
+.bookmark-button {
+  position: absolute;
+  top: -8px;
+  right: 20px;
+  background: none;
+}
+
+.bookmark {
+  border: solid 2px darkgoldenrod;
+  border-radius: 10px;
+  background-color: darkolivegreen;
+  color: bisque;
+  text-transform: none;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.show-answer-button {
+  border: solid 2px darkgoldenrod;
+  border-radius: 10px;
+  background-color: bisque;
+  color: darkolivegreen;
+  margin: 75px;
+  padding: 10px;
+  font-size: 18px;
+  align-items: center;
+}
+
+.nav-bar {
+  display: flex;
+  background-color: darkgoldenrod;
+  color: darkolivegreen;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  min-width: 100%;
+  max-height: 50px;
+  justify-content: space-between;
+}
+
+.nav-bar__button {
+  background-color: darkgoldenrod;
 }
