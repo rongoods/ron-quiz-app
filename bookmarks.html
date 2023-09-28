@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./card.css" href="./global.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -12,12 +12,12 @@
     />
     <title>Bookmarks</title>
   </head>
-  <body class="base-layer">
+  <body>
     <header>
       <h1>Quiz App</h1>
     </header>
 
-    <article class="base-layer__question-card">
+    <article class="question-card">
       <a class="bookmark-button">
         <img
           src="./resources/bookmark_filled.png"
@@ -26,7 +26,7 @@
           width="25px"
         />
       </a>
-      <p class="question">What does CSS stand for?</p>
+      <h2 class="question">What does CSS stand for?</h2>
       <button class="show-answer-button">Show Answer</button>
       <br />
       <a class="bookmark" href="#Bookmark">#css</a>
@@ -34,7 +34,7 @@
       <a class="bookmark" href="#Bookmark">#Bookmark</a>
     </article>
 
-    <article class="base-layer__question-card">
+    <article class="question-card">
       <a class="bookmark-button">
         <img
           src="./resources/bookmark_filled.png"
@@ -43,7 +43,7 @@
           width="25px"
         />
       </a>
-      <p class="question">JavaScript is a type of?</p>
+      <h2 class="question">JavaScript is a type of?</h2>
 
       <button class="show-answer-button">Show Answer</button>
       <br />
@@ -52,7 +52,7 @@
       <a class="bookmark" href="#Bookmark">#Bookmark</a>
     </article>
 
-    <article class="base-layer__question-card">
+    <article class="question-card">
       <a class="bookmark-button">
         <img
           src="./resources/bookmark_filled.png"
@@ -61,7 +61,7 @@
           width="25px"
         />
       </a>
-      <p class="question">What does CSS control?</p>
+      <h2 class="question">What does CSS control?</h2>
 
       <button class="show-answer-button">Show Answer</button>
       <br />
@@ -72,7 +72,7 @@
 
     <footer>
       <nav class="nav-bar">
-        <a class="nav-bar__button">
+        <a class="nav-bar__button" href="./index.html">
           <img
             src="./resources/home.png"
             alt="home button"
@@ -81,7 +81,7 @@
           />
         </a>
 
-        <a class="nav-bar__button">
+        <a class="nav-bar__button" href="./bookmarks.html">
           <img
             src="./resources/bookmark_filled.png"
             alt="bookmark button"
@@ -90,7 +90,7 @@
           />
         </a>
 
-        <a class="nav-bar__button">
+        <a class="nav-bar__button" href="./profile.html">
           <img
             src="./resources/profile.png"
             alt="profile button"
