@@ -1,5 +1,8 @@
 @import "global.css";
 
+* {
+  font-family: "Gloock", serif;
+}
 .question-card {
   position: relative;
   justify-content: center;
