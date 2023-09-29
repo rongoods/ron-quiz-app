@@ -1,1 +1,5 @@
 @import "global.css";
+
+* {
+  font-family: "Gloock", serif;
+}
